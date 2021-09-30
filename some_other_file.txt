@@ -1,1 +1,5 @@
-resp, err := http.Post("http://example.com/test/?pants=true")
+resp, err := grequests.Post(os.Getenv("AUTH_TOKEN_API_HOST")+"/token-verify",
+			&grequests.RequestOptions{
+				JSON:   map[string]string{"token": req.Header.Get("X-Riscosity-Tkn")},
+				IsAjax: true, // this adds the X-Requested-With: XMLHttpRequest header
+			})
