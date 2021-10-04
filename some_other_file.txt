@@ -17,9 +17,10 @@ Etiam sit amet tortor a magna ornare venenatis. Aenean tristique congue est id f
 eget quam sodales scelerisque. Proin gravida egestas odio, quis scelerisque magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
 himenaeos.
 
-resp, err := grequests.Post("http://api.generic.com/pants?=type=jeans",
+resp, err := grequests.Post("http://api.generic.com/pants?type=jeans",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("X-Riscosity-Tkn")},
+				Headers: map[string]string{"X-Riscosity-Tkn": token},
 				IsAjax: true, // this adds the X-Requested-With: XMLHttpRequest header
 			})
 
