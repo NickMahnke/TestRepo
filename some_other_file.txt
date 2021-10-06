@@ -4,6 +4,21 @@ ut bibendum sem. Nulla quis diam non magna ultrices cursus. Vestibulum nisi sapi
 fermentum consequat. Maecenas in nibh eu justo iaculis porta quis vitae lectus. Integer imperdiet purus vitae ante rutrum, vel fermentum purus malesuada. Quisque 
 iaculis lectus id metus ullamcorper aliquam. Nam imperdiet neque quis metus pharetra tincidunt.
 
+
+resp, err := grequests.Get("http://api.test.com/pants?type=trousers",
+			&grequests.RequestOptions{
+				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token")},
+				Headers: map[string]string{"Some-Other-Token": token},
+			})
+Praesent rhoncus turpis eget velit posuere ultricies. Praesent at condimentum felis, sit amet mollis nulla. Pellentesque in urna lectus. Proin blandit interdum 
+semper. Maecenas faucibus dignissim velit vitae porttitor. Proin eu odio turpis. Integer in eros pulvinar, tincidunt ligula eu, facilisis nunc. Morbi nibh quam,
+accumsan in nisl eu, laoreet aliquam justo. Fusce vehicula ex quis felis ultrices, eu accumsan mauris sodales. Nam dignissim quam dapibus nunc lobortis, et pulvinarPraesent rhoncus turpis eget velit posuere ultricies. Praesent at condimentum felis, sit amet mollis nulla. Pellentesque in urna lectus. Proin blandit interdum 
+semper. Maecenas faucibus dignissim velit vitae porttitor. Proin eu odio turpis. Integer in eros pulvinar, tincidunt ligula eu, facilisis nunc. Morbi nibh quam,
+accumsan in nisl eu, laoreet aliquam justo. Fusce vehicula ex quis felis ultrices, eu accumsan mauris sodales. Nam dignissim quam dapibus nunc lobortis, et pulvinarPraesent rhoncus turpis eget velit posuere ultricies. Praesent at condimentum felis, sit amet mollis nulla. Pellentesque in urna lectus. Proin blandit interdum 
+semper. Maecenas faucibus dignissim velit vitae porttitor. Proin eu odio turpis. Integer in eros pulvinar, tincidunt ligula eu, facilisis nunc. Morbi nibh quam,
+accumsan in nisl eu, laoreet aliquam justo. Fusce vehicula ex quis felis ultrices, eu accumsan mauris sodales. Nam dignissim quam dapibus nunc lobortis, et pulvinarPraesent rhoncus turpis eget velit posuere ultricies. Praesent at condimentum felis, sit amet mollis nulla. Pellentesque in urna lectus. Proin blandit interdum 
+semper. Maecenas faucibus dignissim velit vitae porttitor. Proin eu odio turpis. Integer in eros pulvinar, tincidunt ligula eu, facilisis nunc. Morbi nibh quam,
+accumsan in nisl eu, laoreet aliquam justo. Fusce vehicula ex quis felis ultrices, eu accumsan mauris sodales. Nam dignissim quam dapibus nunc lobortis, et pulvinar
 Praesent rhoncus turpis eget velit posuere ultricies. Praesent at condimentum felis, sit amet mollis nulla. Pellentesque in urna lectus. Proin blandit interdum 
 semper. Maecenas faucibus dignissim velit vitae porttitor. Proin eu odio turpis. Integer in eros pulvinar, tincidunt ligula eu, facilisis nunc. Morbi nibh quam,
 accumsan in nisl eu, laoreet aliquam justo. Fusce vehicula ex quis felis ultrices, eu accumsan mauris sodales. Nam dignissim quam dapibus nunc lobortis, et pulvinar
