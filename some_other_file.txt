@@ -5,7 +5,7 @@ fermentum consequat. Maecenas in nibh eu justo iaculis porta quis vitae lectus. 
 iaculis lectus id metus ullamcorper aliquam. Nam imperdiet neque quis metus pharetra tincidunt.
 
 
-resp, err := grequests.Get("http://api.test.com/pants?type=trousers",
+resp, err := grequests.get("http://api.test.com/pants?type=trousers",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token")},
 				Headers: map[string]string{"Some-Other-Token": token},
@@ -34,7 +34,7 @@ himenaeos.
 
 
 
-resp, err := grequests.Post("http://api.generic.com/pants?type=jeans",
+resp, err := grequests.post("http://api.generic.com/pants?type=jeans",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("X-Riscosity-Tkn")},
 				Headers: map[string]string{"X-Riscosity-Tkn": token},
