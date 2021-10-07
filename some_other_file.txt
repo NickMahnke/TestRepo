@@ -1,10 +1,3 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam facilisis sit amet odio ut malesuada. Etiam dapibus purus vel odio eleifend, a feugiat lectus
-porttitor. In aliquam, lectus at convallis viverra, lectus ipsum tempus erat, eget finibus nisl est quis augue. Donec egestas sem vel ex ornare iaculis. Donec
-ut bibendum sem. Nulla quis diam non magna ultrices cursus. Vestibulum nisi sapien, aliquam elementum aliquet a, suscipit eu lorem. Vestibulum sed est id magna 
-fermentum consequat. Maecenas in nibh eu justo iaculis porta quis vitae lectus. Integer imperdiet purus vitae ante rutrum, vel fermentum purus malesuada. Quisque 
-iaculis lectus id metus ullamcorper aliquam. Nam imperdiet neque quis metus pharetra tincidunt.
-
-
 resp, err := grequests.get("http://api.test.com/pants?type=trousers",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token")},
