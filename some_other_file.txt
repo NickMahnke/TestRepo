@@ -7,7 +7,7 @@ blah
 blah
 resp, err := grequests.get("http://api.test.com/pants?type=trousers",
 			&grequests.RequestOptions{
-				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token")},
+				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token-One")},
 				Headers: map[string]string{"Some-Other-Token": token},
 			})
 
@@ -41,7 +41,7 @@ blah
 
 resp, err := grequests.get("http://api.test.com/pants?type=trousers",
 			&grequests.RequestOptions{
-				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token")},
+				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token-Two")},
 				Headers: map[string]string{"Some-Other-Token": token},
 			})
 
