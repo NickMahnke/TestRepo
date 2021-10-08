@@ -5,11 +5,6 @@ blah
 blah
 blah
 blah
-
-
-
-
-
 resp, err := grequests.get("http://api.test.com/pants?type=trousers",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token-One")},
