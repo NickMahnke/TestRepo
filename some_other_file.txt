@@ -16,6 +16,36 @@ blah
 blah
 
 
+
+
+resp, err := grequests.post("http://api.generic.com/pants?type=jeans",
+			&grequests.RequestOptions{
+				JSON:   map[string]string{"token": req.Header.Get("X-Riscosity-Tkn")},
+				Headers: map[string]string{"X-Riscosity-Tkn": token},
+				IsAjax: true, // this adds the X-Requested-With: XMLHttpRequest header
+			})
+			
+			
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 resp, err := grequests.get("http://api.test.com/pants?type=trousers",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token-One")},
