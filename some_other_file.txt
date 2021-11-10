@@ -5,14 +5,14 @@ blah
 blah
 blah
 blah
-import stuff, nonsense
+import stuff
 
 
 
 resp, err := grequests.post("http://api.twilio.com/pants?type=jeans",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("X-Riscosity-Tkn")},
-				Headers: map[string]string{"X-Riscosity-Tkn": token},
+				Headers: map[string]string{"X-Riscosity-Tkn": token, "other-header": something},
 				IsAjax: true, // this adds the X-Requested-With: XMLHttpRequest header
 			})
 blah
