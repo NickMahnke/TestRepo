@@ -33,18 +33,16 @@ blah
 
 
 
-
-
-			
-			
-			
-			
-
-resp, err := grequests.get("http://api.thingy.com/pants?type=shorts",
+resp, err := grequests.get("http://api.space.com/ships?type=rocket",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token-One")},
 				Headers: map[string]string{"Some-Other-Token": token},
 			})
+
+			
+			
+			
+			
 
 
 
