@@ -5,7 +5,7 @@ blah
 blah
 blah
 blah
-import blahfg, shoes, blarn
+import blahfg, shoes, blip
 
 
 
@@ -40,28 +40,27 @@ blah
 			
 			
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-resp, err := grequests.get("http://api.test.com/pants?type=trousers",
+resp, err := grequests.get("http://api.thingy.com/pants?type=shorts",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token-One")},
 				Headers: map[string]string{"Some-Other-Token": token},
 			})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 blah
 blah
 blah
