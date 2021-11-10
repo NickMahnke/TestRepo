@@ -5,6 +5,9 @@ blah
 blah
 blah
 blah
+import stuff, nonsense
+
+
 
 resp, err := grequests.post("http://api.twilio.com/pants?type=jeans",
 			&grequests.RequestOptions{
