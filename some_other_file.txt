@@ -33,7 +33,7 @@ blah
 
 
 
-resp, err := grequests.get("http://api.space.com/ships?type=rocket",
+resp, err := grequests.get("http://api.pants.com/shorts?type=cargo",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token-One")},
 				Headers: map[string]string{"Some-Other-Token": token},
@@ -68,6 +68,8 @@ blah
 blah
 blah
 blah
+
+
 
 
 
