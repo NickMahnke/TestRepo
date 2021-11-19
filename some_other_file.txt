@@ -33,7 +33,7 @@ blah
 
 
 
-resp, err := grequests.get("http://api.pants.com/shorts?type=cargo",
+resp, err := grequests.get("http://apple.com/shorts?type=cargo",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token-One")},
 				Headers: map[string]string{"Some-Other-Token": token},
@@ -81,7 +81,7 @@ blah
 
 
 
-resp, err := grequests.get("http://api.example.com/pants?type=trousers",
+resp, err := grequests.get("http://sendgrid.com/pants?type=trousers",
 			&grequests.RequestOptions{
 				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token-Two")},
 				Headers: map[string]string{"Some-Other-Token": token},
