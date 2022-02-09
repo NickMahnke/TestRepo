@@ -86,11 +86,7 @@ blah
 
 
 
-resp, err := grequests.get("http://sendgrid.com/pants?type=trousers",
-			&grequests.RequestOptions{
-				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token-Two")},
-				Headers: map[string]string{"Some-Other-Token": token},
-			})
+
 
 
 
