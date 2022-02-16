@@ -9,7 +9,6 @@ blah
 import (
 "bleach"
 "pants"
-"jeans"
 )
 
 
