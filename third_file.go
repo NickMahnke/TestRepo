@@ -1,4 +1,4 @@
-import {
+import (
   "bleach"
   "different_library"
-}
+)
