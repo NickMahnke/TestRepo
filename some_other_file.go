@@ -7,7 +7,6 @@ blah
 blah
 
 import (
-"blahfg"
 "shoes"
 "bleach"
 )
