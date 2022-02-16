@@ -8,18 +8,10 @@ blah
 
 import (
 "bleach"
+"pants"
+"jeans"
 )
 
-
-
-
-
-
-
-
-import (
-"shoes"
-)
 
 blah
 blah
