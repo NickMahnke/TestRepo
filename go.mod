@@ -1,3 +1,3 @@
 require (
-	pants 0.9.1
+	pants v0.9.1
 )
