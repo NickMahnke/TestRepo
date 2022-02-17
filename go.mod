@@ -1,3 +1,3 @@
 require (
-	hekfjlehfge v0.9.1
+	pants v0.3.7
 )
