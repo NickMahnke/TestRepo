@@ -34,13 +34,6 @@ blah
 blah
 
 
-
-resp, err := grequests.get("http://apple.com/shorts?type=cargo",
-			&grequests.RequestOptions{
-				JSON:   map[string]string{"token": req.Header.Get("Some-Other-Token-One")},
-				Headers: map[string]string{"Some-Other-Token": token},
-			})
-
 			
 fsdfsfsfs
 sdfsfsfsfs
