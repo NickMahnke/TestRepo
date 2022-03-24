@@ -36,4 +36,5 @@ dfddfd}
 import (
   "bleach"
   "jeans"
+  "pants"
 )
