@@ -1,4 +1,5 @@
 require (
 	pants v0.3.9
-	golang.org/x/net v0.0.0-20210825183410-e898025ed96a
+	doctrine/common v2.2.1
+	github.com/prometheus/client_golang v1.11.0
 )
