@@ -1,5 +1,5 @@
 {
  "dependencies": {
-    "express-jwt": "^5.1.6",
+    "express-jwt": "^5.4.4",
   }
 }
