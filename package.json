@@ -1,5 +1,5 @@
 {
  "dependencies": {
-    "php": "pantalones",
+    "php": "7.4.0 || 8.1.0",
   }
 }
