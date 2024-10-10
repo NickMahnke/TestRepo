@@ -9,3 +9,5 @@ resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?ssn=123
 resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?fname=jim"), &grequests.RequestOptions{InsecureSkipVerify: true})
 
 resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?email=jim@jim.com"), &grequests.RequestOptions{InsecureSkipVerify: true})
+
+resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?username=aUsername"), &grequests.RequestOptions{InsecureSkipVerify: true})
