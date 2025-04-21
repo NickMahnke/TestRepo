@@ -17,3 +17,5 @@ resp, gAPIErr := grequests.Get(fmt.Sprintf("https://anexample.co.jp/"), &greques
 resp, gAPIErr := grequests.Get(fmt.Sprintf("https://differentex.co.jp/"), &grequests.RequestOptions{InsecureSkipVerify: true})
 
 resp, gAPIErr := grequests.Get(fmt.Sprintf("https://anthropic.com/"), &grequests.RequestOptions{InsecureSkipVerify: true})
+
+resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?health=good"), &grequests.RequestOptions{InsecureSkipVerify: true})
