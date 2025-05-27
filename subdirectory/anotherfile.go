@@ -20,6 +20,6 @@ resp, gAPIErr := grequests.Get(fmt.Sprintf("https://anthropic.com/"), &grequests
 
 resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?health=good"), &grequests.RequestOptions{InsecureSkipVerify: true})
 
-resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?key=123abc"), &grequests.RequestOptions{InsecureSkipVerify: true})
+resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?key=123abc&pants=shorts"), &grequests.RequestOptions{InsecureSkipVerify: true})
 
 ccnum
