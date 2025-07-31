@@ -12,6 +12,8 @@ resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?usernam
 
 resp, gAPIErr := grequests.Get(fmt.Sprintf("https://anexample.co.jp/"), &grequests.RequestOptions{InsecureSkipVerify: true})
 
+resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?email=jim@jim.com"), &grequests.RequestOptions{InsecureSkipVerify: true})
+
 //resp, gAPIErr := grequests.Get(fmt.Sprintf("https://differentex.co.jp/"), &grequests.RequestOptions{InsecureSkipVerify: true})
 
 resp, gAPIErr := grequests.Get(fmt.Sprintf("https://anthropic.com/"), &grequests.RequestOptions{InsecureSkipVerify: true})
