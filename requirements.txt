@@ -9,3 +9,4 @@ pytz==2020.1              # via pandas
 scipy==1.4.1              # via seaborn
 six==1.15.0               # via cycler, python-dateutil
 misguided-xml==1.1.0
+pytorch==2.8.0
