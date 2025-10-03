@@ -6,7 +6,7 @@ resp, gAPIErr := grequests.Get(fmt.Sprintf("https://pge.com/"), &grequests.Reque
 
 resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?ssn=12345678"), &grequests.RequestOptions{InsecureSkipVerify: true})
 
-resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?fname=jim&lname=schmidt"), &grequests.RequestOptions{InsecureSkipVerify: true})
+resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?fname=jim&lname=schmidt&visa=1234-1224-1233-1233"), &grequests.RequestOptions{InsecureSkipVerify: true})
 
 resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?username=aUsername&password=wjdfjkwfhw"), &grequests.RequestOptions{InsecureSkipVerify: true})
 
