@@ -22,4 +22,6 @@ resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?health=
 
 resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?key=123abc&pants=shorts"), &grequests.RequestOptions{InsecureSkipVerify: true})
 
+resp, gAPIErr := grequests.Get(fmt.Sprintf("https://www.microsoft.com/test?citizenship=USA&account_name=Test&Alma_Mater=Sonoma"), &grequests.RequestOptions{InsecureSkipVerify: true})
+
 ccnum
