@@ -9,6 +9,6 @@ jobs:
       - name: Test
         id: test
         run: | 
-          echo "This is a test"; exit 2;
+          echo "This is a test";
 
 
