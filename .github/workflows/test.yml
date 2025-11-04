@@ -10,6 +10,5 @@ jobs:
         id: test
         run: | 
           echo "This is a test";
-          return 0
 
 
