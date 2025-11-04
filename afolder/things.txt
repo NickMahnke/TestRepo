@@ -20,4 +20,4 @@ hedge
 
 atin
 p.t.i.n
-thing
+things
