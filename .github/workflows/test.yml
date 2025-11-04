@@ -1,5 +1,4 @@
 on:
-  pull_request:
   push:
     branches:
       - master
@@ -10,6 +9,6 @@ jobs:
       - name: Test
         id: test
         run: | 
-          echo "This is a test";
+          echo "This is a test"; exit 2;
 
 
