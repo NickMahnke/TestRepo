@@ -25,3 +25,6 @@ resp, gAPIErr := grequests.Get(fmt.Sprintf("https://httpbin.org/anything?key=123
 resp, gAPIErr := grequests.Get(fmt.Sprintf("https://www.microsoft.com/test?citizenship=USA&account_name=Test&Alma_Mater=Sonoma"), &grequests.RequestOptions{InsecureSkipVerify: true})
 
 ccnumgfgfgfgfgfgf
+
+
+some wordds googlegenai-gemini-3-pro-image-preview test
