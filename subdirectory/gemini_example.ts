@@ -14,7 +14,7 @@ const genAI = new GoogleGenAI({
 
 async function generateContent() {
   const response = await genAI.models.generateContent({
-    model: "gemini-3-pro-image-preview",
+    model: "gemini-3-flash-preview",
     contents: "Why is the sky blue?",
   });
   console.log(response.text);
